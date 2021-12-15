@@ -7,19 +7,24 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.controldecompras.ui.home.HomeFragment"
+        android:name="com.example.controldecompras.HomeFragment"
         android:label="INICIO"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.controldecompras.ui.gallery.GalleryFragment"
-        android:label="COMPRAS"
-        tools:layout="@layout/fragment_gallery" />
+        android:name="com.example.controldecompras.historial_compras"
+        android:label="HISTORIAL"
+        tools:layout="@layout/fragment_historial" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.controldecompras.ui.slideshow.SlideshowFragment"
-        android:label="ALGO"
-        tools:layout="@layout/fragment_slideshow" />
+        android:name="com.example.controldecompras.about"
+        android:label="ABOUT"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/nav_nueva_compra"
+        android:name="com.example.controldecompras.nueva_compra"
+        android:label="NUEVA COMPRA"
+        tools:layout="@layout/fragment_nueva_compra" />
 </navigation>
